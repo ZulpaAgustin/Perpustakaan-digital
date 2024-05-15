@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg" style="background-color: #ffffff">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand">
         <img src="~/assets/img/LOGO-SMK4.webp" alt="logo" />
       </a>
       <div class="title me-auto">
