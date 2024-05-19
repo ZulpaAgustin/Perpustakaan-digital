@@ -1,6 +1,5 @@
 <template>
   <div class="container-fluid">
-    <!-- <HeaderComponents @my-event="myAction" /> -->
     <div style="background-color: #4377de">
       <div class="row">
         <div class="col-lg-12">
@@ -15,7 +14,7 @@
       </div>
       <div class="row justify-content-between">
         <div class="col-lg-8">
-          <h2 class="text-center ms-5">Rekomendasi Buku</h2>
+          <h2 class="text-center ms-5">Pilih Buku</h2>
         </div>
         <div class="col-lg-4 d-flex justify-content-end align-items-center">
           <div class="me-3">
