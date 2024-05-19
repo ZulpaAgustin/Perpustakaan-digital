@@ -40,66 +40,11 @@
       </div>
     </div>
 
-    <!-- bagian new book -->
+    <!-- bagian kategori -->
     <div class="oval">
       <span class="badge text-bg-light">Kategori Buku Populer</span>
     </div>
 
-    <!-- card -->
-    <!-- <div class="row row-cols-1 row-cols-md-5 g-5 mt-4 justify-content-center">
-      <div class="col">
-        <div class="card h-100">
-          <nuxt-link to="/buku/[id]">
-            <img src="~/assets/img/korea.webp" class="card-img-top" alt="korea" />
-          </nuxt-link>
-          <div class="card-body">
-            <h5 class="card-title">The Sadness Winter in Korea</h5>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <nuxt-link to="/buku/[id]">
-            <img src="~/assets/img/jingga.webp" class="card-img-top" alt="jingga" />
-          </nuxt-link>
-          <div class="card-body">
-            <h5 class="card-title">Bidadari Jingga</h5>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <nuxt-link to="/buku/[id]">
-            <img src="~/assets/img/step.webp" class="card-img-top" alt="step" />
-          </nuxt-link>
-          <div class="card-body">
-            <h5 class="card-title">Kepemimpinan Pembelajaran dan Supervisi Akademik</h5>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <nuxt-link to="/buku/[id]">
-            <img src="~/assets/img/7key.webp" class="card-img-top" alt="key" />
-          </nuxt-link>
-          <div class="card-body">
-            <h5 class="card-title">7 Kunci Sukses Family Business</h5>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <div class="row row-cols-1 row-cols-md-5 g-5 mt-4 justify-content-center">
   <div class="col">
     <div class="card">
