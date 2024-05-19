@@ -1,6 +1,5 @@
 <template>
   <div class="container-fluid">
-    <!-- <HeaderComponents @my-event="myAction" /> -->
     <div style="background-color: #4377de">
       <div class="row">
         <div class="col-lg-12">
