@@ -1,6 +1,4 @@
 <script setup>
-// const myModal = document.getElementById('myModal')
-// const myInput = document.getElementById('myInput')
 const supabase = useSupabaseClient()
 
 const route = useRoute()
@@ -15,11 +13,6 @@ const getBookById = async () => {
 
 onMounted(() => {
   getBookById()
-
-//   myModal.addEventListener('shown.bs.modal', () => {
-//   myInput.focus()
-// })
-
 })
 
 
@@ -58,35 +51,29 @@ onMounted(() => {
         </div>
       </div>
       <div class="col-4 d-flex flex-column justify-content-center align-items-center">
-        <button type="button" class="btn btn-lg text-white mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="background-color: #123577; width: 200px;">Selesai</button>
-        <!-- <button type="submit" class="btn btn-lg text-white mb-4" style="background-color: #123577; width: 200px;">Membaca Buku</button>
-        <button type="submit" class="btn btn-lg text-white mb-4" style="background-color: #123577; width: 200px;">Mengembalikan</button> -->
+        <button type="button" class="btn btn-lg text-white mb-4" data-bs-toggle="modal" :data-bs-target="`#modal-${buku.id}`"  style="background-color: #123577; width: 200px;">Selesai</button>
       </div>
     </div>
 
-<!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button> -->
-
-<!-- Modal -->
-<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+    <div class="modal" :id="`modal-${buku.id}`">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="judul1">{{ buku.judul }}</h1>
+          </div>
+          <div class="modal-body">
+            <h4>Selesai</h4>
+            <p>Terimakasih sudah datang berkunjung dan memilih buku ini.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-bs-dismiss="modal" class="btn btn-danger">Batal</button>
+          <nuxt-link to="/">
+            <button type="button" data-bs-dismiss="modal" class="btn btn-primary">Oke</button>
+          </nuxt-link>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div> -->
 
 
     
@@ -104,6 +91,12 @@ onMounted(() => {
 .container-fluid {
   background-color: #4377de;
 }
+
+.judul1 {
+  display: flex;
+  justify-content: center;
+}
+
 h2 {
   color: #fff;
 }
