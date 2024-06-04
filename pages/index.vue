@@ -9,7 +9,7 @@
             <input v-model="form.nama" type="text" class="form-control form-control-lg rounded-5" placeholder="Nama" />
           </div>
           <div class="mb-4">
-            <select v-model="form.keanggotaan" class="form-control form-control-lg form-select rounded-5">
+            <select aria-label="state" v-model="form.keanggotaan" class="form-control form-control-lg form-select rounded-5">
               <option value="">Keanggotaan</option>
               <option v-for="(member, i) in members" :key="i" :value="member.id">{{ member.nama }}</option>
             </select>
@@ -17,7 +17,7 @@
           <div class="mb-4" v-if="form.keanggotaan === 1">
             <div class="row">
               <div class="col-md-4">
-                <select v-model="form.tingkat" class="form-control form-control-lg form-select rounded-5 mb-2">
+                <select aria-label="state" v-model="form.tingkat" class="form-control form-control-lg form-select rounded-5 mb-2">
                   <option value="">Tingkat</option>
                   <option value="10">10</option>
                   <option value="11">11</option>
@@ -25,7 +25,7 @@
                 </select>
               </div>
               <div class="col-md-4">
-                <select v-model="form.jurusan" class="form-control form-control-lg form-select rounded-5 mb-2">
+                <select aria-label="state" v-model="form.jurusan" class="form-control form-control-lg form-select rounded-5 mb-2">
                   <option value="">Jurusan</option>
                   <option value="PPLG">PPLG</option>
                   <option value="TJKT">TJKT</option>
@@ -35,7 +35,7 @@
                 </select>
               </div>
               <div class="col-md-4">
-                <select v-model="form.kelas" class="form-control form-control-lg form-select rounded-5 mb-2">
+                <select aria-label="state" v-model="form.kelas" class="form-control form-control-lg form-select rounded-5 mb-2">
                   <option value="">Kelas</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -46,7 +46,7 @@
             </div>
           </div>
           <div class="mb-4">
-            <select v-model="form.keperluan" class="form-control form-control-lg form-select rounded-5">
+            <select aria-label="state" v-model="form.keperluan" class="form-control form-control-lg form-select rounded-5">
               <option value="">Keperluan</option>
               <option v-for="(item, i) in objectives" :key="i" :value="item.id">{{ item.nama }}</option>
             </select>
