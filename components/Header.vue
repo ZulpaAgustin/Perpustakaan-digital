@@ -2,9 +2,9 @@ template
 <template>
   <nav class="navbar navbar-expand-lg" style="background-color: #ffffff">
     <div class="container-fluid">
-      <a class="navbar-brand">
+      <div class="navbar-brand">
         <img src="~/assets/img/LOGO-SMK4.webp" alt="logo" />
-      </a>
+      </div>
       <div class="title me-auto">
         <h2 class="m-0">PERPUS DIGITAL</h2>
         <p class="m-0">SMKN 4 Tasikmalaya</p>
