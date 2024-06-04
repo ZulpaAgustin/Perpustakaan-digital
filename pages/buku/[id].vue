@@ -68,7 +68,7 @@ onMounted(() => {
             <h1 class="judul1">{{ buku.judul }}</h1>
           </div>
           <div class="modal-body">
-            <h3>Selesai-!</h3>
+            <h3>Berhasil-!</h3>
             <p>Terimakasih sudah datang berkunjung dan memilih buku ini.</p>
           </div>
           <div class="modal-footer">
