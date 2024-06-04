@@ -1,4 +1,3 @@
-template
 <template>
   <nav class="navbar navbar-expand-lg" style="background-color: #ffffff">
     <div class="container-fluid">
