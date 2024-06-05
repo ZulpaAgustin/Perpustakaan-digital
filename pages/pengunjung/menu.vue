@@ -14,7 +14,7 @@
       </div>
       <div class="col-2 d-flex justify-content-end align-items-center">
         <nuxt-link to="/buku/">
-          <button type="button" class="btn btn-bg">Cari Buku</button>
+          <button type="button" class="btn btn-primary text-white">Cari Buku</button>
         </nuxt-link>
       </div>
     </div>
@@ -95,10 +95,10 @@
 .oval {
   font-size: 30px;
 }
-.btn-bg {
+/* .btn-bg {
   background-color: #6194f6;
   color: #ffffff;
-}
+} */
 .container-fluid {
   background-color: #4377de;
 }
