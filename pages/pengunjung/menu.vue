@@ -42,7 +42,7 @@
 
     <!-- bagian kategori -->
     <div class="oval">
-      <span class="badge text-bg-light">Kategori Buku Populer</span>
+      <span lang="en" class="badge text-bg-light">Kategori Buku Populer</span>
     </div>
 
     <div class="row row-cols-1 row-cols-md-5 g-5 mt-4 justify-content-center">
