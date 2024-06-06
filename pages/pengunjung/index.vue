@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div lang="en" class="container-fluid">
     <div class="row">
       <div class="col-lg-12">
         <h2 lang="en" class="text-center my-4">Riwayat Kunjungan</h2>
