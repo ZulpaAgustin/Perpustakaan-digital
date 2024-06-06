@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div lang="en" class="container-fluid">
     <div class="row justify-content-between">
       <div class="col-1">
         <div class="icon">
