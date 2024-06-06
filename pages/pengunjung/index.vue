@@ -1,5 +1,5 @@
 <template>
-  <div lang="en" class="container-fluid">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12">
         <h2 lang="en" class="text-center my-4">Riwayat Kunjungan</h2>
@@ -9,7 +9,7 @@
           </form>
         </div>
         <div class="my-3 text-white">Menampilkan {{ visitors.length }} Dari {{ Semua }}</div>
-        <table class="table text-white">
+        <table lang="en" class="table text-white">
           <thead>
             <tr>
               <td>No</td>
