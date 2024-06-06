@@ -50,15 +50,15 @@
     <div class="card">
       <img src="~/assets/img/comic-1.webp" class="card-img-top" alt="...">
       <div class="card-body text-center">
-        <h6 class="card-title">Komik</h6>
+        <h6>Komik</h6>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card">
       <img src="~/assets/img/mapel-1.webp" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h6 class="card-title text-center">Mata Pelajaran</h6>
+      <div class="card-body text-center">
+        <h6>Mata Pelajaran</h6>
       </div>
     </div>
   </div>
@@ -66,7 +66,7 @@
     <div class="card">
       <img src="~/assets/img/novel-1.webp" class="card-img-top" alt="...">
       <div class="card-body text-center">
-        <h6 class="card-title">Novel</h6>
+        <h6>Novel</h6>
       </div>
     </div>
   </div>
