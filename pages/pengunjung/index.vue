@@ -9,7 +9,7 @@
           </form>
         </div>
         <div class="my-3 text-white">Menampilkan {{ visitors.length }} Dari {{ Semua }}</div>
-        <table class="table">
+        <table class="table text-white">
           <thead>
             <tr>
               <td>No</td>
