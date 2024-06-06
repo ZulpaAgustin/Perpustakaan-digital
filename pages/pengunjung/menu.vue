@@ -14,7 +14,7 @@
       </div>
       <div class="col-2 d-flex justify-content-end align-items-center">
         <nuxt-link to="/buku/">
-          <button type="button" class="btn btn-primary text-white">Cari Buku</button>
+          <button type="button" class="btn btn-dark text-white">Cari Buku</button>
         </nuxt-link>
       </div>
     </div>
