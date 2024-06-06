@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12">
-        <h2 class="text-center my-4">Riwayat Kunjungan</h2>
+        <h2 lang="en" class="text-center my-4">Riwayat Kunjungan</h2>
         <div class="my-3">
           <form @submit.prevent="getPengunjung">
             <input v-model="keyword" type="search" class="form-control form-control-lg rounded-5" placeholder="Mencari" />
