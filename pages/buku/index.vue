@@ -24,7 +24,7 @@
           </div>
         </div>
       </div>
-      <div class="ms-3 fs-6">Menampilkan {{ books.length }} Dari {{ Semua }}</div>
+      <div class="ms-3 fs-6 text-dark">Menampilkan {{ books.length }} Dari {{ Semua }}</div>
       <div class="row mt-5">
         <div v-for="(book, i) in books" :key="i" class="col-3 d-flex flex-column justify-content-center align-items-center">
           <div class="card mb-3" style="width: 16rem">
