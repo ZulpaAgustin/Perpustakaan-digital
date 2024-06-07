@@ -31,7 +31,7 @@
             <div class="card-header" style="height: 350px">
               <img :src="book.cover" alt="book.judul" class="card-img-top" />
               <div class="card-body">
-                <p class="kartu text-center">{{ book.judul }}</p>
+                <p class="kartu">{{ book.judul }}</p>
                 <nuxt-link :to="`/buku/${book.id}`">
                   <button type="submit" class="btn my-3">Buka</button>
                 </nuxt-link>
