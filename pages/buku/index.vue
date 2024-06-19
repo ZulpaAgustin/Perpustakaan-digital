@@ -14,7 +14,7 @@
       </div>
       <div class="row justify-content-between">
         <div class="col-lg-10">
-          <h2 class="text-center ms-5">Pilih Buku</h2>
+          <h2 class="text-center">Pilih Buku</h2>
         </div>
         <div class="col-lg-2 d-flex justify-content-end align-items-center">
           <div class="me-3">
