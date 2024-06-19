@@ -13,10 +13,10 @@
         </div>
       </div>
       <div class="row justify-content-between">
-        <div class="col-lg-8">
+        <div class="col-lg-10">
           <h2 class="text-center ms-5">Pilih Buku</h2>
         </div>
-        <div class="col-lg-4 d-flex justify-content-end align-items-center">
+        <div class="col-lg-2 d-flex justify-content-end align-items-center">
           <div class="me-3">
             <form @submit.prevent="getBooks">
               <input v-model="keyword" type="search" class="form-control rounded-5 bi bi-search" placeholder="Cari buku disini..." />
